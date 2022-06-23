@@ -6,15 +6,6 @@ using System;
 
 namespace CubeConquer.Managers
 {
-    public enum GameState
-    {
-        Menu,
-        Preparation,
-        Shotted,
-        Goal,
-        Loose
-    }
-
     public class GameManager : MonoBehaviour, IGameManager
     {
         #region IGameManager
@@ -25,9 +16,6 @@ namespace CubeConquer.Managers
             {
                 case GameAction.PauseGame:
                     StopGame();
-                    break;
-                case GameAction.Shot:
-                    Shot();
                     break;
                 case GameAction.Lost:
                     GameLost();

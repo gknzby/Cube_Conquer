@@ -3979,7 +3979,7 @@ PrefabInstance:
     - target: {fileID: 1451087836309808745, guid: f892658a5d9e5a343aba3832a3e42132,
         type: 3}
       propertyPath: m_text
-      value: Next
+      value: Retry
       objectReference: {fileID: 0}
     - target: {fileID: 2068940171370563606, guid: f892658a5d9e5a343aba3832a3e42132,
         type: 3}
@@ -4134,7 +4134,7 @@ PrefabInstance:
     - target: {fileID: 8522166235606539299, guid: f892658a5d9e5a343aba3832a3e42132,
         type: 3}
       propertyPath: m_Name
-      value: NextButton
+      value: RetryButton
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f892658a5d9e5a343aba3832a3e42132, type: 3}
